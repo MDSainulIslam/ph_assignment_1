@@ -25,13 +25,13 @@ body{
 .btn a{
     text-decoration: none;
     color: #0D1321;
+    background-color: red;
+    padding: 17px 20px;
 }
 
 .btn:hover{
     background:linear-gradient(#fdff83,#ff7300);
-    color:#ac4a1c
 }
-
 
 .content{
     text-align: center;
