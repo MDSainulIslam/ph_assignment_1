@@ -1,0 +1,129 @@
+/* laptop device */
+@media screen and (max-width:1200px){
+
+.content h1{
+  font-size: 36px;
+}
+
+.media_content iframe{
+    height:420px;
+}
+
+
+
+}
+
+
+
+
+
+
+
+
+
+/* tablet device */
+@media screen and (max-width:1024px){
+
+.content h1{
+    font-size: 26px;
+}
+
+.btn{
+    padding:10px 16px;
+    font-size: 16px;
+}
+
+
+.story{
+    flex-direction: column-reverse;
+    gap: 50px;
+}
+.story_content{
+    width: 100%;
+    text-align: center;
+}
+.story_image{
+    width: 100%;
+}
+
+
+.media_content iframe{
+    height:320px;
+}
+
+
+.card_holder{
+    display: flex;
+    flex-direction: column;
+
+}
+.card{
+    height:300px;
+    width:70%;
+    margin: 30px auto;
+}
+
+
+
+
+ #footer{
+    padding: 12px 30px;
+    margin-bottom:10px;
+    flex-direction: column;
+ }
+
+.footer_content{
+     font-weight:bold;
+     font-size:15px;
+}
+
+.footer_image{
+    margin-top:20px;
+    display: flex;
+    gap: 20px;
+}
+
+}
+
+
+
+
+
+
+
+
+
+/* mobile device up to 425px*/
+@media screen and (max-width:640px){
+
+#nav{
+    padding:10px;
+}
+
+.logo{
+    font-size:24px;
+}
+
+.btn{
+    padding:8px 16px;
+    font-size: 12px;
+}
+
+.media_content iframe{
+    height:200px;
+}
+
+#card_container{
+    margin: 0px auto 30px;
+}
+
+.card{
+    height:230px;
+    width:70%;
+    margin: 20px auto;
+}
+
+
+
+
+}
