@@ -115,12 +115,14 @@
 
 #card_container{
     margin: 0px auto 30px;
+    width:97%;
 }
 
 .card{
     height:230px;
-    width:70%;
-    margin: 20px auto;
+    /* width:70%; */
+    width:100%;
+    margin: 10px auto;
 }
 
 
