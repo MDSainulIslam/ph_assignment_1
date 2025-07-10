@@ -27,8 +27,8 @@
     border-radius: 10px;
 }
 
-body{
-    /* background-color: #eef5fc; */
+ .btn:hover{
+background-color:rgb(128, 27, 138);
 }
 
 /* header section styles */
