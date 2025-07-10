@@ -46,6 +46,7 @@ nav{
 
 nav h1{
     font-size:34px;
+    font-weight: 900;
 }
 .banner{
     width:905px;
@@ -220,7 +221,7 @@ nav h1{
 
 .input{
     width: 80%;
-    margin:0 auto;
+    margin:100px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -259,3 +260,36 @@ nav h1{
     width: 90%;
     padding: 19px 0;
 }
+
+/* footer section style */
+
+footer{
+        border-top:1px solid #D6DDED;
+
+}
+
+.footer_container{
+    color:#8987A1;
+    width: 550px;
+    margin: 100px auto;
+    text-align: center;
+}
+footer h1{
+    font-weight: bold;
+    font-size:100px;
+    color:#4E47FF;
+    margin-bottom: -15px;
+}
+
+footer ul{
+    display: flex;
+    justify-content: space-around;
+}
+footer li{
+    list-style: none;
+}
+footer li a{
+    text-decoration: none;
+    color:#8987A1;
+}
+
