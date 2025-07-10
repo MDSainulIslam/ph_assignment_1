@@ -28,7 +28,7 @@
 }
 
 body{
-    /* background-color: #b6bcca69; */
+    /* background-color: #eef5fc; */
 }
 
 /* header section styles */
@@ -214,4 +214,48 @@ nav h1{
 
 .focus_section img{
     border-radius: 48px;
+}
+
+/* input section styles */
+
+.input{
+    width: 80%;
+    margin:0 auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.input_title{
+    width: 40%;
+}
+.form{
+    width: 50%;
+    
+}
+
+.input h1{
+    font-weight: bold;
+    font-size: 97px;
+}
+.input label{
+    display: block;
+    font-weight:600;
+    font-size: 18px;
+}
+
+.form input,
+.form textarea{
+    height:30px;
+    width: 80%;
+    padding: 20px 32px;
+    border: 1px solid #D6DDED;
+    border-radius: 10px;
+    margin: 10px 0 20px;
+}
+.form textarea{
+    height: 70px;
+}
+.form button{
+    width: 90%;
+    padding: 19px 0;
 }
