@@ -67,5 +67,31 @@ nav h1{
 .action_section{
     width:80%;
     display: flex;
-    margin: 0 auto;
+    margin: 150px auto;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.action_content{
+    width:240px;
+}
+
+/* .action_image{
+    width:403px;
+    height:328px;
+} */
+
+.action_image img{
+    border-radius: 48px;
+    /* width:100%; */
+}
+
+.action_content h3{
+    font-weight:bold;
+    font-size:42px;
+}
+
+.action_content p{
+    font-size: 24px;
+    color: #25243250;
 }
