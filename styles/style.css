@@ -184,3 +184,34 @@ nav h1{
 .reviewer_name .image img{
     border-radius: 20px;
 }
+
+
+
+
+/* focus section styles */
+.focus_section{
+    height: 697px;
+    width:1140px;
+    text-align: center;
+    border: 1px solid #f2eded8e;
+    margin: 0 auto;
+    border-radius: 14px;
+}
+
+
+.focus_section h1{
+    font-weight:bold;
+    font-size:50px;
+}
+
+.focus_section p{
+    color:rgba(0, 0, 0, 0.5);
+}
+.focus_section button{
+    display: block;
+    margin: 20px auto;
+}
+
+.focus_section img{
+    border-radius: 48px;
+}
