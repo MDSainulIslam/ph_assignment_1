@@ -31,6 +31,15 @@
 background-color:rgb(128, 27, 138);
 }
 
+
+
+body{
+    background-color: #f1f1f5;
+}
+
+
+
+
 /* header section styles */
 header{
     background: url(/images/Hero-bg.png);
@@ -155,6 +164,8 @@ nav h1{
     padding:24px;
     border: 1px solid #F2EDED;
     border-radius: 14px;
+    background-color: #FFFFFF;
+
 }
 
 
@@ -197,6 +208,8 @@ nav h1{
     border: 1px solid #f2eded8e;
     margin: 0 auto;
     border-radius: 14px;
+    background-color: #FFFFFF;
+
 }
 
 
@@ -220,17 +233,17 @@ nav h1{
 /* input section styles */
 
 .input{
-    width: 80%;
+    width: 90%;
     margin:100px auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
 .input_title{
-    width: 40%;
+    width: 50%;
 }
 .form{
-    width: 50%;
+    width: 40%;
     
 }
 
@@ -257,7 +270,7 @@ nav h1{
     height: 70px;
 }
 .form button{
-    width: 90%;
+    width: 95%;
     padding: 19px 0;
 }
 
@@ -265,6 +278,8 @@ nav h1{
 
 footer{
         border-top:1px solid #D6DDED;
+        background-color: #FFFFFF;
+        padding: 50px;
 
 }
 
